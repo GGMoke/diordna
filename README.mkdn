@@ -57,11 +57,11 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the MoKee trees, use a command like this:
 
-    repo init -u https://github.com/MoKee/android.git -b mkn-mr1
+    repo init -u https://github.com/GGMoke/diordna.git -b mkn-mr1
 
 Then to sync up:
 
-    repo sync
+    repo sync -f --force-sync
 
 Start Work
 ----------
